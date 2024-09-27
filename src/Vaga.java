@@ -1,11 +1,9 @@
-import jdk.jfr.Experimental;
-
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class Vaga {
     private String titulo;
+    private String descricao;
     private List<Candidato> candidados;
     private List<String> competenciasNecessarias;
 
